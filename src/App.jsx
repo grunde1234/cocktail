@@ -6,6 +6,7 @@ import CockTails from './components/CockTails'
 import About from './components/About';
 import Art from './components/Art';
 import Menu from './components/Menu';
+import Contact from './components/Contact';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);//not automatically active so needs to be registered
 
@@ -20,8 +21,8 @@ const App = () => {
     <CockTails />
     <About />
     <Art />
-   {/*  <div className='h-dvh bg-black'></div> */}
     <Menu />
+    <Contact />
    </main>
   )
 }
